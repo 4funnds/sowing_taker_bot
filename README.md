@@ -14,6 +14,7 @@ An automated farming bot designed to interact with the Taker Sowing Protocol. Th
 - Real-time terminal UI with status updates
 - Automatic token refreshing
 - Countdown timers for next farming opportunities
+- Auto referring yourself with private key
 
 ## Installation
 
@@ -36,6 +37,11 @@ cd Sowing-Taker-Auto-Bot
 ```bash
 npm install
 ```
+For running javascript program (index.js)
+```bash
+pip install aiohttp eth-account
+```
+For running autoreff.py
 
 3. Create a `.env` file in the project root directory and add your private keys:
 
